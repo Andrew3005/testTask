@@ -47,8 +47,8 @@
         })();
 
 
-        let input = document.querySelector(".right-bar__input-message");
-        input.value = "";
+        let input = document.querySelector(".right-bar__input-message"); //when mobile screen, leftBar.onclick => input.value = "" 
+        input.value = ""; // and default leftBar look
 
 
     }

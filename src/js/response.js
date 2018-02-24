@@ -25,7 +25,7 @@
     }
 
     //also watch "tabs.js"
-    //** stroke
+    //66-67 stroke
     // sender.onclick => hide leftbar
 
 })();

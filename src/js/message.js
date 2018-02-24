@@ -22,7 +22,7 @@
             input.style.border = "2px solid red";
             return;
         }
-        // create div
+
         let rightBarMain = document.querySelector(".active-right-bar");
         let mainUser = document.createElement("div");
         let message = document.createElement("div");
@@ -32,7 +32,7 @@
         let secUserImg = document.createElement("img");
         let activeSender = document.querySelector(".active-sender > .left-bar__img");
 
-
+        // create div for main-user msg
         mainUser.classList.add("right-bar__main-user");
         message.classList.add("right-bar__message");
         mainUserImg.classList.add("right-bar__img-user");
@@ -44,6 +44,7 @@
         mainUser.appendChild(mainUserImg);
         rightBarMain.appendChild(mainUser);
 
+        //when sent msg -> input value = "";
         input.value = "";
 
 
@@ -69,9 +70,9 @@
                 {
                     return;
                 }
-
         }
 
+        // create div for sec-user msg
         secUser.classList.add("right-bar__second-user");
         answer.classList.add("right-bar__message");
         secUserImg.classList.add("right-bar__img-user");
@@ -85,6 +86,7 @@
             rightBarMain.appendChild(secUser);
         }, rand());
 
+        //random time(0-2s) when bot have to give an answer
         function rand() {
             return Math.random() * 2000;
         }
