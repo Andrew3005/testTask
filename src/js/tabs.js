@@ -11,7 +11,7 @@
         tabs.cache = {};
         inputSearch.value = "";
 
-        //clean styles for senders and set display: none; for tabs
+        //clean styles for senders and set display: none; for chat-boxes
         for (let i = 0, max = tabs.length; i < max; i++) {
             if (tabs[i].classList.contains("active-right-bar")) {
                 tabs[i].classList.remove("active-right-bar");
@@ -23,7 +23,7 @@
             }
         };
 
-        //set tab and sender class active
+        //set chat-box and sender class:active
         tabs[n].classList.add("active-right-bar");
         senders[n].classList.add("active-sender");
 
@@ -53,7 +53,7 @@
 
     }
 
-    //click on sender; change active sender and active tab
+    //click on sender; change active sender and active chat-box
 
     leftBar.onclick = (e) => {
         let width = window.innerWidth;
