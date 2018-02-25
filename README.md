@@ -4,7 +4,7 @@
 2. Pure JS.
 3. Btn for mobile screens(move side bar(animation)).
 4. input "search" work.
-5. send message(try "Hi", "Hello", "How are you?").
+5. send message(try "Hi", "Hello", "How are you?")(mouse.onclick and enter.onkeypressed).
 6. BEM.
 7. LESS.
 8. WebPack(less->css; es6->es5 and etc).
